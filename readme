@@ -7,7 +7,7 @@ Ce projet est un monorepo qui contient deux parties principales :
 
 ## Structure du projet
 
-```
+```plaintext
 monorepo/
 ├── backend/     # API Node.js avec Prisma
 ├── frontend/    # Application React
@@ -16,14 +16,14 @@ monorepo/
 
 ## Installation
 
-1. Clonez le projet :
+1. **Clonez le projet :**
 
    ```bash
    git clone https://github.com/votre-utilisateur/votre-projet.git
    cd votre-projet
    ```
 
-2. Installez les dépendances pour chaque partie du projet :
+2. **Installez les dépendances pour chaque partie du projet :**
 
    - **Backend** :
 
@@ -38,7 +38,7 @@ monorepo/
      npm install
      ```
 
-3. Configurez les fichiers `.env` :
+3. **Configurez les fichiers `.env` :**
    - **Backend** : Copiez le fichier `.env.example` en `.env` et configurez vos variables.
    - **Frontend** : Faites de même pour le dossier frontend.
 
@@ -64,4 +64,4 @@ Le backend sera disponible sur `http://localhost:4000` (par défaut) et le front
 ## Auteurs
 
 - **Votre Nom**  
-  [GitHub](https://github.com/JeromeFabre77)
+  [GitHub](https://github.com/votre-utilisateur)
