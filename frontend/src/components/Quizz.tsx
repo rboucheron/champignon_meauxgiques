@@ -3,14 +3,6 @@ import { FormEvent, useState } from "react";
 const Quizz = () => {
     const data = [
       {
-        question: "Quelle est la couleur du cheval blanc d'Henri IV ?",
-        réponse1: "blanc",
-        réponse2: "jaune",
-        réponse3: "vert",
-        réponse4: "rouge",
-        vraieréponse: "réponse1",
-      },
-      {
           question: "Quel est le rôle des courants marins dans les océans, comparable à celui de quel système dans le corps humain ?",
           réponse1: "Système immunitaire ",
           réponse2: "Système digestif",
@@ -90,7 +82,6 @@ const Quizz = () => {
           réponse4: "Recyclage des nutriments",
           vraieréponse: "réponse4",
       },
-
 ];
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
