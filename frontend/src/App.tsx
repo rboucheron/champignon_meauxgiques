@@ -1,7 +1,6 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
 
-import Quizz from './components/Quizz'
 
 import Navbar from './components/Navbar'
 import Accueil from './components/Accueil'
@@ -19,7 +18,7 @@ function App() {
         <Light />
         < Accueil />
       </main>
-        < Quizz />  
+  
       < Outlet />  
     </div>
     </>

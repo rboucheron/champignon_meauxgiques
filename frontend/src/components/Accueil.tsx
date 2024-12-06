@@ -7,6 +7,7 @@ import SmallPoisson from '../assets/smallPoisson.png'
 import SmallBulles from '../assets/smallBulles.png'
 import Plongeur from '../assets/plongeur.png'
 import { Animation } from './animation/Animation'
+import Quizz from './Quizz'
 
 
 const Accueil = () => {
@@ -31,8 +32,10 @@ const Accueil = () => {
                     <p className='textDiscussion'>Discussion</p>
                 </div>
             </div>
+            < Quizz/>
         </section>
     )
 }
+
 
 export default Accueil;
