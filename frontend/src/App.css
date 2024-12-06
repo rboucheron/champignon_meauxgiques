@@ -11,11 +11,8 @@ body {
   height: 100vh;
   background-color: #004c68;
   background-size: cover;
-<<<<<<< HEAD
   color: white;
-=======
   overflow-x: hidden;
->>>>>>> ae01e83 (Avancé FRONTEND)
 }
 
 /* ========= Navigation ========== */
@@ -24,9 +21,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #004c68;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .nav-element a {
@@ -48,14 +42,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 4rem);
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.7);
-  border: 2px solid white;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
   margin: 1rem;
-  animation: fadeIn 3s infinite alternate;
 }
 
 .accueil p {
@@ -211,4 +199,4 @@ main {
     width: 90%;
     padding: 1rem;
   }
-}
+}}
