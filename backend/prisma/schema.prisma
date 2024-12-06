@@ -7,9 +7,23 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model qcm {
+model user {
   id    Int    @id @default(autoincrement())
   email String @unique
   name  String
   note  Float
+}
+
+model Question {
+  id        Int       @id @default(autoincrement())
+  content   String
+  responses Response[]
+}
+
+model Response {
+  id             Int      @id @default(autoincrement())
+  content        String
+  isGoodResponse Boolean
+  questionId     Int
+  question       Question @relation(fields: [questionId], references: [id])
 }
