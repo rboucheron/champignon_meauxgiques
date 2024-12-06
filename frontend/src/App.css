@@ -33,6 +33,13 @@ body {
   margin-top: 14rem;
   z-index: 10;
 }
+.boiteDiscussion {
+  position: absolute;
+  padding: 1rem 9rem;
+  background: white;
+  border-radius: 6px;
+  color: black;
+}
 
 @media (max-width: 1124px) {
   .header-nav {
