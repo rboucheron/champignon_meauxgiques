@@ -104,6 +104,7 @@ const Quizz = () => {
 
   return (
     <>
+    <div className="form-container"></div>
       <form onSubmit={e => isTrue(e)}>
         <ul>
           <div className="question">
