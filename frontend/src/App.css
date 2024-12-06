@@ -8,4 +8,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  height: 100vh;
+  background: linear-gradient(180deg, #00749F 0%, #004C69 33.33%, #003143 66.67%, #002938 100%);
+  background-size: cover;
+}
+
+.nav-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1124px) {
+  .header-nav {
+    padding: 1.2rem 2rem 3.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    display: none !important;
+    top: -10px !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .header-nav {
+    display: none !important;
+    top: -10px !important;
+  }
 }
