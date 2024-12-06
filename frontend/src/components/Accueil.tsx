@@ -76,6 +76,7 @@ const Accueil = () => {
                 </div>
                 <img src={BullesFinal} id='bulleFinal' style={{ position: 'absolute', bottom: '-575rem', right: '380px' }} alt="" />
                 <img src={PlongeurFinLateral} className='plongeur' id='plongeurFinLateral' style={{ position: 'absolute', bottom:'-484rem', right: '12rem' }}></img>
+                <img src={PlongeurGauche} style={{ position: 'absolute', bottom: '-615rem' }} alt="" />
 
 
 
