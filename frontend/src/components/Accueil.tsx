@@ -10,6 +10,7 @@ import { AnimationPoissonGauche } from './animation/Animation'
 import { AnimationPoissonDroite } from './animation/Animation'
 
 
+
 const Accueil = () => {
     return (
         <section className="accueil">
@@ -28,10 +29,19 @@ const Accueil = () => {
                 < AnimationPoissonDroite/>
                 <img src={SmallBulles} id='smallBulles' style={{ position: 'absolute', right: '10rem', top: '66rem' }} alt="" />
                 < AnimationPoissonDroite/>
+                <img src={BigPoisson} id='bigPoisson' className='poissonGauche' style={{ position: 'absolute', top: '62rem', left: '14rem', height: '150px' }} alt="" />
+                <img src={SmallPoisson} id='smallPoisson' className='poissonDroite' style={{ position: 'absolute', right: '380px' }} alt="" />
+                <img src={SmallBulles} id='smallBulles' style={{ position: 'absolute', right: '10rem', top: '66rem' }} alt="" />
+                <img src={SmallPoisson} className='poissonDroite' style={{ position: 'absolute', top: '75rem', right: '18rem' }} alt="" />
                 <img src={Plongeur} style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" />
+                <div className='boiteDiscussion'>
+                    <p className='textDiscussion'>Discussion</p>
+                </div>
             </div>
+            < Quizz/>
         </section>
     )
 }
+
 
 export default Accueil;

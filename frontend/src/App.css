@@ -33,10 +33,26 @@ body {
   margin-top: 14rem;
   z-index: 10;
 }
+.boiteDiscussion {
+  position: absolute;
+  padding: 1rem 9rem;
+  background: white;
+  border-radius: 6px;
+  color: black;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
 
 @media (max-width: 1124px) {
   .header-nav {
     padding: 1.2rem 2rem 3.5rem !important;
+
   }
 }
 
