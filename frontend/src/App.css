@@ -11,7 +11,11 @@ body {
   height: 100vh;
   background-color: #004c68;
   background-size: cover;
+<<<<<<< HEAD
   color: white;
+=======
+  overflow-x: hidden;
+>>>>>>> ae01e83 (Avancé FRONTEND)
 }
 
 /* ========= Navigation ========== */
@@ -35,7 +39,7 @@ body {
   text-decoration: underline;
 }
 main {
-  height: 1000vh;
+  height: 1500vh;
 }
 
 /* ========= Accueil ========== */
@@ -71,7 +75,7 @@ main {
   position: absolute;
    padding: 1rem 20rem;
   background: #3E8DAB;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 20px;
   color: black;
   z-index: 10;
