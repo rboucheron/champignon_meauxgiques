@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-// import Plongeur from '../../assets/plongeur.png'
+import Plongeur from '../../assets/plongeur.png'
 import BigPoisson from '../../assets/bigPoisson.png'
 import SmallPoisson from '../../assets/smallPoisson.png'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -56,6 +56,36 @@ export const AnimationPoissonDroite = () => {
         <>
             <img src={SmallPoisson} id='smallPoisson' className='poissonDroite' style={{ position: 'absolute', right: '380px' }} alt="" />
             <img src={SmallPoisson} className='poissonDroite' style={{ position: 'absolute', top: '75rem', right: '18rem' }} alt="" />
+        </>
+    )
+}
+export const Plongeur1 = () => {
+
+    gsap.registerPlugin(useGSAP,ScrollTrigger,ScrollToPlugin,MotionPathPlugin,RoughEase,ExpoScaleEase,SlowMo,CustomEase);
+
+
+    useGSAP(() => {
+        gsap.to('#Plongeur1', { 
+            x:-400,
+            // y:400,
+            ease: "power1.out",
+            y: 500,
+            duration: 2,
+            scrollTrigger:{
+                // toggleActions:"restart pause reverse pause",
+                start:"center center",
+                end: "bottom 150px",
+                trigger: '#Plongeur1',
+                markers:true,
+                scrub:2
+            }
+
+        });
+    });
+
+    return (
+        <>
+        <img src={Plongeur} id='Plongeur1' className="plongeur" style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" />
         </>
     )
 }

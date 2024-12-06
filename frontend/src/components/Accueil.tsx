@@ -5,9 +5,10 @@ import CorailDroite from '../assets/CorailDroite.png'
 import BigPoisson from '../assets/bigPoisson.png'
 import SmallPoisson from '../assets/smallPoisson.png'
 import SmallBulles from '../assets/smallBulles.png'
-import Plongeur from '../assets/plongeur.png'
+// import Plongeur from '../assets/plongeur.png'
 import { AnimationPoissonGauche } from './animation/Animation'
 import { AnimationPoissonDroite } from './animation/Animation'
+import { Plongeur1 } from './animation/Animation'
 // import Quizz from './Quizz'
 
 
@@ -35,7 +36,8 @@ const Accueil = () => {
                 < AnimationPoissonDroite />
                 <img src={SmallBulles} id='smallBulles' style={{ position: 'absolute', right: '10rem', top: '66rem' }} alt="" />
                 < AnimationPoissonDroite />
-                <img src={Plongeur} style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" />
+                {/* <img src={Plongeur} id='Plongeur1' className="plongeur" style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" /> */}
+                < Plongeur1 />
                 <div className='boiteDiscussion'>
                     <p className='textDiscussion'>Discussion</p>
                 </div>
