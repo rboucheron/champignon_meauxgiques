@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     < Outlet />
-
-    < MentionLegal />  
+    < Quizz />  
+    < MentionLegal/>
     </>
   )
 }

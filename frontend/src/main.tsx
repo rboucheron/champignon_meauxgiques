@@ -2,21 +2,20 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.tsx'
-import Quizz from './components/Quizz.tsx'
 
-const router = createBrowserRouter(
+const router =  createBrowserRouter(
   [
     {
-      path: "/",
-      element: <Quizz />,
+      path: "/", 
+      element: <App />, 
       children: [
         {
           path: "/",
-          element: < Quizz />
+          element: <Home /> 
 
-        },
+        }, 
       ]
     }
   ]
@@ -24,6 +23,6 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    < RouterProvider router={router} />
+    < RouterProvider router={ router } /> 
   </StrictMode>,
 )
