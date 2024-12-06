@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 const Quizz = () => {
-  const [data, setData] = useState([
+  const data = [
     {
       question:
         "Quel est le rôle des courants marins dans les océans, comparable à celui de quel système dans le corps humain ?",
@@ -21,17 +21,15 @@ const Quizz = () => {
       vraieréponse: "réponse2",
     },
 
-  ]);
+  ];
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [feedback, setFeedback] = useState("");
 
  
-  const isTrue = (e) => {
+  const isTrue = (e : FormEvent) => {
     e.preventDefault();
-  
-
     setTimeout(() => {
       setFeedback("");
       setSelectedAnswer(""); 
@@ -45,7 +43,7 @@ const Quizz = () => {
 
   return (
     <>
-      <form onSubmit={isTrue}>
+      <form onSubmit={e => isTrue(e)}>
         <ul>
           <div className="question">
             <h3>{currentQuestion.question}</h3>
