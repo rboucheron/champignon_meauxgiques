@@ -27,6 +27,9 @@ import River2 from '../assets/river2.png'
 import VideoRemplacement from '../assets/videoRemplacement.png'
 import BullesFinal from '../assets/bulleFinal.png'
 import PlongeurFinLateral from '../assets/plongeurFinLateral.png'
+import Vegetation from '../assets/vegetation.png'
+import Boule from '../assets/boule.png'
+import RocheFooter from '../assets/rocheFooter.png'
 
 const Accueil = () => {
     return (
@@ -76,7 +79,13 @@ const Accueil = () => {
                 </div>
                 <img src={BullesFinal} id='bulleFinal' style={{ position: 'absolute', bottom: '-575rem', right: '380px' }} alt="" />
                 <img src={PlongeurFinLateral} className='plongeur' id='plongeurFinLateral' style={{ position: 'absolute', bottom:'-484rem', right: '12rem' }}></img>
-                <img src={PlongeurGauche} style={{ position: 'absolute', bottom: '-615rem' }} alt="" />
+                <img src={PlongeurGauche} style={{ position: 'absolute', bottom: '-615rem', left: '10rem' }} alt="" />
+                <img src={Vegetation} style={{ position: 'absolute', bottom: '-720rem', width: '100%', left: '0' }} alt="" />
+                <div className="video-container" style={{ display: 'flex', justifyContent: 'center' }}>
+                    <img src={VideoRemplacement} style={{ position: 'absolute', bottom: '-760rem', width: '50rem' }} alt="" />
+                </div>
+                <img src={Boule} style={{ position: 'absolute', bottom: '-880rem', width: '210rem', left: '20rem' }} alt="" />
+                <img src={RocheFooter} style={{ position: 'absolute', bottom: '-892rem', left: '0', width: '100%' }} alt="" />
 
 
 
@@ -107,6 +116,9 @@ const Accueil = () => {
                     <p className='textDiscussion'>Discussion</p>
                 </div>
                 <div className='boiteDiscussion' id='boite8' style={{ bottom: '-488rem', right: '19rem', zIndex: '10', padding: '1rem 8rem' }}>
+                    <p className='textDiscussion'>Discussion</p>
+                </div>
+                <div className='boiteDiscussion' id='boite9' style={{ bottom: '-594rem', right: '30rem', zIndex: '10', padding: '1rem 17rem' }}>
                     <p className='textDiscussion'>Discussion</p>
                 </div>
             </div>
