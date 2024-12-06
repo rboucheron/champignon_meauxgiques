@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Accueil from './components/Accueil'
 import Light from './components/Light'
-import MentionLegal from './components/mentionlegal'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         < Navbar /> 
         <Light />
         < Accueil />
-        <MentionLegal />
+        < Footer />
       </main>
   
       < Outlet />  
