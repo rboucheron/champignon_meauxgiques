@@ -9,14 +9,29 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
-  background: linear-gradient(180deg, #00749F 0%, #004C69 33.33%, #003143 66.67%, #002938 100%);
+  background-color: #004c68;
   background-size: cover;
 }
 
+/* ============= Nav ============= */
 .nav-element {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* ============= Accueil ============= */
+.accueil {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.accueil p {
+  text-align: center;
+}
+.container {
+  margin-top: 14rem;
+  z-index: 10;
 }
 
 @media (max-width: 1124px) {

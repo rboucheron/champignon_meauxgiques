@@ -16,7 +16,7 @@ const Navbar = () => {
             </nav>
         </header>
         <div className="wave-container">
-            <Wave style={{ position: 'absolute', rotate: '-.6deg', top: '-33px' }}/>
+            <Wave style={{ position: 'absolute', rotate: '-.6deg', top: '-53px', zIndex: '100' }}/>
         </div>
         </>
     );
