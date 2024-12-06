@@ -18,7 +18,7 @@ useGSAP(() => {
             // toggleActions:"restart pause reverse pause",
             start:"top center",
             end: "bottom 150px",
-            trigger: '.chat',
+            trigger: '#hippocampeGauche',
             markers:true,
             scrub:2
         }
