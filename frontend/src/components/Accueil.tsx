@@ -38,7 +38,7 @@ const Accueil = () => {
                     <p className='textDiscussion'>Discussion</p>
                 </div>
             </div>
-            < Quizz/>
+            {/* < Quizz/> */}
         </section>
     )
 }
