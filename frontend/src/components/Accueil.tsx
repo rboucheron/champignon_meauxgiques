@@ -29,7 +29,6 @@ import BullesFinal from '../assets/bulleFinal.png'
 import PlongeurFinLateral from '../assets/plongeurFinLateral.png'
 import Vegetation from '../assets/vegetation.png'
 import Boule from '../assets/boule.png'
-import RocheFooter from '../assets/rocheFooter.png'
 
 const Accueil = () => {
     return (
@@ -85,7 +84,7 @@ const Accueil = () => {
                     <img src={VideoRemplacement} style={{ position: 'absolute', bottom: '-760rem', width: '50rem' }} alt="" />
                 </div>
                 <img src={Boule} style={{ position: 'absolute', bottom: '-880rem', width: '210rem', left: '20rem' }} alt="" />
-                <img src={RocheFooter} style={{ position: 'absolute', bottom: '-892rem', left: '0', width: '100%' }} alt="" />
+                
 
 
 
