@@ -8,6 +8,8 @@ import SmallBulles from '../assets/smallBulles.png'
 import Plongeur from '../assets/plongeur.png'
 import { AnimationPoissonGauche } from './animation/Animation'
 import { AnimationPoissonDroite } from './animation/Animation'
+// import Quizz from './Quizz'
+
 
 
 
@@ -30,9 +32,9 @@ const Accueil = () => {
                 <img src={SmallBulles} id='smallBulles' style={{ position: 'absolute', right: '10rem', top: '66rem' }} alt="" />
                 < AnimationPoissonDroite/>
                 <img src={BigPoisson} id='bigPoisson' className='poissonGauche' style={{ position: 'absolute', top: '62rem', left: '14rem', height: '150px' }} alt="" />
-                <img src={SmallPoisson} id='smallPoisson' className='poissonDroite' style={{ position: 'absolute', right: '380px' }} alt="" />
+                < AnimationPoissonDroite />
                 <img src={SmallBulles} id='smallBulles' style={{ position: 'absolute', right: '10rem', top: '66rem' }} alt="" />
-                <img src={SmallPoisson} className='poissonDroite' style={{ position: 'absolute', top: '75rem', right: '18rem' }} alt="" />
+                < AnimationPoissonDroite />
                 <img src={Plongeur} style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" />
                 <div className='boiteDiscussion'>
                     <p className='textDiscussion'>Discussion</p>
