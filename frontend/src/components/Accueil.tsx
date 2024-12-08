@@ -29,10 +29,14 @@ const Accueil = () => {
                 <img src={SmallPoisson} className='poissonDroite' style={{ position: 'absolute', top: '75rem', right: '18rem' }} alt="" />
                 <img src={Plongeur} style={{ position: 'absolute', right: '60px', top: '90rem' }} alt="" />
                 <div className='boiteDiscussion'>
-                    <p className='textDiscussion'>Discussion</p>
+                    <p className='textDiscussion'>Nous voici tout d'abord à la surface de l'eau. Toutcomme notre peau qui protège nos organes en régulant notre température corporelle, la surface protège les écosystèmes marins sous-jacents et régule les échanges thermiques entre l'atmosphère et l'eau</p>
                 </div>
             </div>
             < Quizz/>
+
+
+
+
         </section>
     )
 }
